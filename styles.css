@@ -1,0 +1,114 @@
+body{font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 800px;
+    height: 500px;
+    border: 1px;
+    border-radius: 8px;
+    border-style: groove;
+    padding: 2pc;
+    margin: 5pc;
+}
+
+.main{ display: inline-flex;
+  text-indent: 2pt;
+  text-align: center;
+  
+
+}
+
+.header{text-align: center;
+       padding: 0px;
+       margin:auto;
+      
+}
+
+h5{
+ font-weight: lighter;
+ opacity: 25%;
+}
+
+#one,#two, #three,#four{border: 1px solid;
+  border-radius: 5px;
+  border-style: hidden;
+  width: 85px;
+  background-color:rgb(241, 239, 221);
+  padding: 2pc;
+  margin: 2pc;
+  opacity: 70%;
+}
+#one{
+  border: 1px solid;
+  border-radius: 3px;
+  width: 50px;
+ max-height: 700%;
+  margin: 0%;
+  padding: 11%;
+  
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 15px;
+   
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgb(16, 16, 235);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 10px;
+  bottom: 4px;
+  background-color: rgb(236, 229, 229);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 3px;
+  border: 0px solid;
+
+}
+.bold{
+  border:1px solid ;
+  border-style: hidden;
+  border-radius: 5px;
+  text-align: center;
+  background-color:rgb(235, 243, 248);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1pc;
+  padding: 2%;
+  text-transform: capitalize;
+  font-style:initial;
+  
+}
+.end{text-align: right;
+}
+  
+  
+
+
+
+    
+
+
+
+
+
+
